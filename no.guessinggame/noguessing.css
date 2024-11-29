@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    height: 100vh;
+    background-color: black;
+}
+#main{
+    background-color: aliceblue;
+    height: 100vh;
+    width: 550px;
+    display: flex;
+    margin-left: 500px;
+}
+#game{
+    display: grid;
+    grid-template-columns:auto auto auto auto auto ;
+    grid-template-rows:auto auto auto auto ;
+    height: 75vh;
+    width: 550px;
+    padding-top: 150px;
+}
+#header{
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hint{
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+#attempts{
+    background-color: grey;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    display: flex;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
